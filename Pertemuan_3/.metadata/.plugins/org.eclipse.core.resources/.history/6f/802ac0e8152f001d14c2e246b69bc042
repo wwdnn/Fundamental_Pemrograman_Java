@@ -1,0 +1,79 @@
+package soal_3;
+
+import java.util.*;
+
+public class Berhitung {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		double hasil;
+		
+		System.out.print("Input A: ");
+		int A = sc.nextInt();
+		
+
+		System.out.print("Input B: ");
+		int B = sc.nextInt();
+		
+		System.out.print("Input Operator (+, -, *, /): ");
+		char operator = sc.next().charAt(0);
+		
+		
+		
+		if(A>=1 && A<=1000 && B>=1 && B<=1000) {
+			switch(operator) {
+				case '+':
+				{
+					System.out.printf("%d %c %d \n", A, operator, B);
+					hasil = A + B;
+					System.out.println(hasil);
+					break;
+				}
+				
+				case '-':
+				{
+					System.out.printf("%d %c %d \n", A, operator, B);
+					hasil = A - B;
+					System.out.println(hasil);
+					break;
+				}
+				
+				case '*':
+				{
+					System.out.printf("%d %c %d \n", A, operator, B);
+					hasil = A * B;
+					System.out.println(hasil);
+					break;
+				}
+				
+				case '/':
+				{
+					System.out.printf("%d %c %d \n", A, operator, B);
+					hasil = A / B;
+					System.out.println(hasil);
+					break;
+				}
+				
+				case '%':
+				{
+					System.out.printf("%d %c %d \n", A, operator, B);
+					hasil = A % B;
+					System.out.println(hasil);
+					break;
+				}
+				default:
+				{
+					System.out.println("Pilih inputan operator yang tersedia");
+					break;
+				}
+					
+			}
+		} else {
+			System.out.println("Inputan A atau B tidak boleh lebih dari 1000 dan tidak boleh kurang dari 1");
+		}
+		
+		sc.close();
+
+	}
+
+}

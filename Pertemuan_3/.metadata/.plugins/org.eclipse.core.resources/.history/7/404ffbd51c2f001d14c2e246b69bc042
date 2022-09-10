@@ -1,0 +1,24 @@
+package soal_5;
+
+import java.util.*;
+
+public class BukaTutupJalan {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		String mobil1 = input.next();
+		String mobil2 = input.next();
+		String mobil3 = input.next();
+		String mobil4 = input.next();
+		
+		input.close();
+		
+		String gabung = (mobil1.concat(mobil2).concat(mobil3).concat(mobil4));
+		double gabungInteger = Double.parseDouble(gabung);
+		
+		System.out.println(gabungInteger);
+		
+	}
+
+}

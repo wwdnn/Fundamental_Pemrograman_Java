@@ -1,0 +1,25 @@
+package strings;
+
+public class formatString {
+
+	public static void main(String[] args) {
+//		Berikan dua buah variabel A dan B yang dimana variabel tersebut berisikan sebuah string
+//		Jumlahkan berapa karakter string yang ada pada variabel A dan variabel B
+//		Bandingkan setiap karakter yang ada pada variabel A dan B, 
+//			jika Variabel A lebih besar daripada B maka print yes
+//			jika variabel A lebih kecil daipada B maka print no
+//		jadikan satu kalimat antara sting di variabel A dan B lalu setiap kata diawali dengan huruf kapital
+	
+		String A = "hello";
+		String B = "java";
+		
+		int jumlahKarakter = A.length() + B.length();
+		
+		System.out.println(jumlahKarakter);
+		System.out.println(A.compareToIgnoreCase(B));
+		
+		
+
+	}
+
+}

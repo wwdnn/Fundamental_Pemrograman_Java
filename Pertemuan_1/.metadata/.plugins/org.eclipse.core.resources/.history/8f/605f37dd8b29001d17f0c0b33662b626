@@ -1,0 +1,12 @@
+package com.belajar;
+
+public class Soal2 {
+
+	public static void main(String[] args) {
+		Integer i = 103;
+		String s = (i<40)?"life":(i>50 && i<100)?"Universe":(i>100)?"JTK":"everything";
+		System.out.println(s);
+
+	}
+
+}

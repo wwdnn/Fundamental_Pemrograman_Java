@@ -1,0 +1,16 @@
+package soal_4;
+
+public class GajiAgent {
+
+	public static void main(String[] args) {
+//		Gaji Pokok = 500.000
+//		Bonus = 25% jika minimal penjualan 40 item 
+//		Bonus = 35% jika minimal minimal 80 item
+//		Jika menjual kurang dari 15 item = pemotongan 15
+//		
+		
+//		Harga item = 50.000
+
+	}
+
+}

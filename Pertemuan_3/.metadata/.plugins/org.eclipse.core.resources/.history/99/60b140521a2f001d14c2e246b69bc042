@@ -1,0 +1,25 @@
+package soal_6;
+
+import java.math.BigInteger;
+import java.util.*;
+
+public class BigNumber {
+
+	public static void main(String[] args) {
+		
+		BigInteger angka1, angka2, hasilJumlah, hasilKali;
+		
+		Scanner input = new Scanner(System.in);
+		
+		angka1 = input.nextBigInteger();
+		angka2 = input.nextBigInteger();
+		
+		hasilJumlah = angka1.add(angka2);
+		hasilKali = angka1.multiply(angka2);
+		
+		System.out.println("Hasil Jumlah: " + hasilJumlah);
+		System.out.println("Hasil Kali: " + hasilJumlah);
+
+	}
+
+}

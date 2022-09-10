@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+D:\SEKOLAH\KULIAH\SEMESTER 3\PEMROGRAMAN_BERORIENTASI_OBJEK\PRAKTEK\Pertemuan_2\Pertemuan_2_OOP\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index

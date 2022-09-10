@@ -1,0 +1,25 @@
+package soal_2;
+
+import java.util.*;
+
+public class InputOutput2 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		
+		System.out.println("================================");
+		
+		String s = sc.nextLine();
+		int i = sc.nextInt();
+		System.out.printf("%-15s%3d\n", s, i);
+
+		System.out.println("================================");
+		sc.close();
+		
+		
+		
+		
+	}
+
+}
